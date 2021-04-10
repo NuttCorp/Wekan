@@ -16,7 +16,7 @@ services:
     depends_on:
       - database
     environment:
-      - ROOT_URL=https://tasks.cfal.com 
+      - ROOT_URL=https://tasks.test.com
       - MONGO_URL=mongodb://database
       - LDAP_ENABLE=true
       - LDAP_HOST=192.168.134.25
